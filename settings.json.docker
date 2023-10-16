@@ -221,7 +221,7 @@
   /*
    * The default text of a pad
    */
-  "defaultPadText" : "${DEFAULT_PAD_TEXT:Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at https:\/\/etherpad.org\n}",
+  "defaultPadText" : "${DEFAULT_PAD_TEXT:Test changed text}",
 
   /*
    * Default Pad behavior.
@@ -521,7 +521,7 @@
     "admin": {
       // 1) "password" can be replaced with "hash" if you install ep_hash_auth
       // 2) please note that if password is null, the user will not be created
-      "password": "${ADMIN_PASSWORD:null}",
+      "password": "${ADMIN_PASSWORD:123pass}",
       "is_admin": true
     },
     "user": {
